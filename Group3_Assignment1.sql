@@ -16,7 +16,7 @@ Shota Uchikawa 		200613595
 # Use proper SQL Standards when formatting your script
 
 -- Q1) Replace this with a brief descriptive comment for each query. Explain the function & details of the command, don't just repeat the question.
-CREATE
+CREATE DATABASE barrie_weather_db; 
 
--- Q2) Provide a descriptive comment here.
-USE
+-- This will ensure that all queries will be executed in the created database.
+USE barrie_weather_db;
