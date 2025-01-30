@@ -47,3 +47,10 @@ SELECT * FROM barrie_weather WHERE temp > 26.5;
 SELECT COUNT(*) FROM barrie_weather WHERE temp > 26.5;
 */
 
+Shota. U
+-- This will select the date_time, temp, pressure_kPA and wind_spd_kmh for every hour of data where the temperature was 24 or less and the air pressure was greater than 96.83, and the number of rows returned.
+SELECT date_time, temp, pressure_kPa, wind_spd_kmh FROM barrie_weather WHERE temp <= 24 AND pressure_kPa > 96.83;
+/*
+SELECT COUNT(*) FROM barrie_weather WHERE temp <= 24 AND pressure_kPa > 96.83;
+*/
+
