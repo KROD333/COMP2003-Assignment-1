@@ -40,3 +40,10 @@ VALUES (-79.55,44.48,'BARRIE-ORO',6117700,'9/1/2019 0:00',2019,9,1,'0:00',11.3,'
 (-79.55,44.48,'BARRIE-ORO',6117700,'9/1/2019 2:00',2019,9,1,'2:00',10.7,'',8.9,'',88,'','2','',3,'','','',99.2,'',NULL,'','','','NA');
 */
 
+Shota. U
+-- This will select all data for every hour of data where the temperature (temp) was greater than 26.5 and the number of rows returned.
+SELECT * FROM barrie_weather WHERE temp > 26.5;
+/*
+SELECT COUNT(*) FROM barrie_weather WHERE temp > 26.5;
+*/
+
